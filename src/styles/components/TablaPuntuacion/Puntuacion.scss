@@ -1,0 +1,41 @@
+.Puntuacion__content{
+    @extend .flex-center;
+    width: 100vw;
+}
+
+.Puntuacion__content h1{
+    @extend .title;
+    margin-bottom: 2rem;
+}
+
+.Puntuacion__content table{
+    width: 60%;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.Puntuacion__content table tr{
+    background-color: rgba(255,255,255,0.2);
+
+    &:hover {
+        background-color: rgba(255,255,255,0.3);
+    }
+}
+
+.Puntuacion__content table tr th{
+    background-color: #55608f;
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+
+.Puntuacion__content table tr td{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: .5rem;
+}
+
+th,
+td {
+	color: $color;
+}

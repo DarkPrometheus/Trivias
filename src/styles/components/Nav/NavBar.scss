@@ -1,0 +1,55 @@
+nav{
+    width: 100%;
+    background-color: #000000;
+    height: 4rem;
+    font-size: 1.6rem;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    align-items: center;
+    color: $color;
+}
+
+nav a{
+    color: $color;
+}
+
+nav ul a{
+    @extend .link;
+    color: $color;
+    padding-right: 1rem;
+}
+
+nav .Logo{
+    padding-left: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav .Timer{
+    @extend .flex-center;
+    flex-direction: row;
+}
+
+nav .Perfil{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1rem;
+    &:hover{
+        @extend .shadow;
+    }
+}
+
+nav i{
+    margin-right: .3rem;
+    &:hover{
+        @extend .shadow;
+    }
+}
+
+nav a{
+    &:hover{
+        @extend .shadow;
+    }
+}

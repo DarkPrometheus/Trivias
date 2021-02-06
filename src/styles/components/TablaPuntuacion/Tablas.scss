@@ -1,0 +1,68 @@
+$mr-t: 2rem;
+$mr-s: 3rem;
+
+.Tablas__main{
+    @extend .flex-center;
+}
+
+.Tablas__title{
+    display: flex;
+    flex-direction: row;
+}
+
+.Tablas__title i{
+    font-size: 5rem;
+    color: white;
+    margin-top: $mr-t + 1.5rem;
+    cursor: pointer;
+}
+
+.Tablas__title h1{
+    @extend .title;
+    margin-top: $mr-t;
+    margin-left: $mr-s;
+    margin-right: $mr-s;
+}
+
+.Tablas__content{
+    @extend .flex-center;
+    margin-top: 3rem;
+    width: 100vw;
+}
+
+.Tablas__content h1{
+    @extend .title;
+    margin-bottom: 2rem;
+}
+
+.Tablas__content table{
+    width: 60%;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.Tablas__content table tr{
+    background-color: rgba(255,255,255,0.2);
+
+    &:hover {
+        background-color: rgba(255,255,255,0.3);
+    }
+}
+
+.Tablas__content table tr th{
+    background-color: #55608f;
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+
+.Tablas__content table tr td{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: .5rem;
+}
+
+th,
+td {
+	color: $color;
+}

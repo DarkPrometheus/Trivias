@@ -1,0 +1,41 @@
+.Categorias__main{
+    width: 100vw;
+    @extend .flex-center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.Categorias__content{
+    @extend .flex-center;
+    height: 80vh;
+}
+
+.Categorias__content h1{
+    @extend .title;
+}
+
+.Categorias__buttons{
+    margin-top: 5rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Categorias__buttons a{
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: $color;
+}
+
+.Border{
+    border-radius: 4rem;
+    border: 1px solid $color;
+}

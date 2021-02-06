@@ -1,0 +1,31 @@
+@import "./base/settings";
+@import "./base/base";
+
+@import "./components/buttons";
+@import "./components/links";
+
+// Components
+// auth
+@import "./components/auth/auth.scss";
+
+// NavBar
+@import "./components/Nav/NavBar.scss";
+
+// Home
+@import "./components/Home/Home.scss";
+
+// Categorias
+@import "./components/Categorias/Categorias.scss";
+@import "./components/Categorias/Categoria.scss";
+
+// Preguntas
+@import "./components/Preguntas/Pregunta.scss";
+
+// Tabla puntuacion
+@import "./components/TablaPuntuacion/Tablas.scss";
+@import "./components/TablaPuntuacion/Puntuacion.scss";
+
+// Footer
+@import "./components/Footer/Footer.scss";
+
+// Responsive

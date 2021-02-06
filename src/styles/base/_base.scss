@@ -1,0 +1,61 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    width: $max-width;
+    background-color: $primary;
+    overflow: hidden;
+    background: linear-gradient(45deg, #49a09d, #5f2c82);
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex-justify{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-aling{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    font-size: 5rem;
+    color: white;
+    font-family: 'Potta One', cursive;
+}
+
+.link{
+    text-decoration: none;
+    color: $color;
+}
+
+.Display{
+    display: block;
+}
+
+.NoDisplay{
+    display: none;
+}
+
+.mr-1{
+    margin-right: 1rem;
+}
+
+.shadow{
+    &:hover{
+        color: darken($color: white, $amount: .1);
+        text-shadow: 1px 1px;
+    }
+}

@@ -1,0 +1,23 @@
+.Categoria__main{
+    width: 100vw;
+}
+
+.Categoria__content{
+    @extend .flex-center;
+}
+
+.Categoria__content h2{
+    @extend .title;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.Categoria__content button{
+    color: $color;
+    @extend .Border;
+    margin-top: 6rem;
+    padding: 4rem;
+    font-size: 3.5rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+}

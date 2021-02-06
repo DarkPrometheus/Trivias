@@ -1,0 +1,23 @@
+footer{
+    height: 5vh;
+    background-color: #000000;
+    padding: 1rem;
+    width: 100%;
+}
+
+footer {
+    margin-top: auto;
+    padding-left: 1rem;
+    bottom: absolute;
+    position: 0;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer a {
+    margin-left: .3rem;
+    color: white;
+    text-decoration: underline;
+}

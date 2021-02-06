@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: #eeeeee;
+    width: 100vw;
+}
+
+#root{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+}
+
+.Flex{
+    display: flex;
+}
+
+.Center{
+    justify-content: center;
+    align-items: center;
+}
+
+.NoDisplay{
+    display: none;
+}
+
+/* NavBar */
+
+nav{
+    width: 100%;
+    background-color: #00adb5;
+    height: 4rem;
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul a{
+    color: white;
+    padding-right: 1rem;
+}
+
+nav .Logo{
+    padding-left: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav .Perfil{
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+/* Main */
+
+.Main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Main h1{
+    padding-top: 3rem;
+    font-size: 3rem;
+    font-family: 'Potta One', cursive;
+}
+
+.Main .TextoPrincipal{
+    width: 50%;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Main .Jugar{
+    font-size: 2.2rem;
+    color: black;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Main, h1, .Main .TextoPrincipal{
+    padding-bottom: 3rem;
+}
+
+/* Categorias */
+
+.Categorias{
+    margin-top: 5rem;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Categorias a{
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+
+.Border{
+    border-radius: 4rem;
+    border: 1px solid black;
+}
+
+/* Preguntas */
+
+.Preguntas{
+    
+}
+
+.Preguntas h2{
+    font-size: 5rem;
+    font-family: 'Potta One', cursive;
+    padding-left: 1rem;
+    margin-bottom: 4rem;
+}
+
+/* Pregunta */
+
+.Pregunta{
+    flex-direction: column;
+}
+
+.Pregunta h3{
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.Pregunta ul{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 50%;
+}
+
+.Pregunta ul li{
+    height: 5rem;
+    font-size: 2rem;
+    list-style: none;
+    text-align: center;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+/* Footer */
+
+footer{
+    margin-top: auto;
+    width: 100%;
+    height: 3rem;
+    background-color: #222831;
+    color: wheat;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+footer a{
+    padding-left: .2rem;
+    color: wheat;
+}
