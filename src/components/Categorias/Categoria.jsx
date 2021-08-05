@@ -90,7 +90,7 @@ class Categoria extends React.Component {
             })
         }
 
-        // Se finaliza la trivia mandando haciendo que el timer ubicado en el navbar se detenga y a su vez llame a ObtenerTiempo
+        // Se finaliza la trivia haciendo que el timer ubicado en el navbar se detenga y a su vez llame a ObtenerTiempo
         if (this.state.p === 20) {
             console.log("Fin de la trivia")
             this.setState({
@@ -109,7 +109,7 @@ class Categoria extends React.Component {
 
     async ObtenerTiempo(tiempo) {
         console.log("Fin")
-        await SaveData(this.props.location.state.user, this.state.puntos, tiempo, this.props.location.state.Categoria)
+        // await SaveData(this.props.location.state.user, this.state.puntos, tiempo, this.props.location.state.Categoria)
 
         this.props.history.push("/Home/TablasDePuntuacion")
     }
